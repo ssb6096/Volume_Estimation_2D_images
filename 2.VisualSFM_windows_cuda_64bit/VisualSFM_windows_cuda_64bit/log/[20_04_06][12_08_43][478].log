@@ -1,0 +1,265 @@
+0: IMG_20200406_002151
+image_size:	4632x2608
+focal_length:	643.333
+1: IMG_20200406_002155
+image_size:	4632x2608
+focal_length:	643.333
+Loading image pixel data ...done in 1s
+0: WhatsApp-Image-2020-04-06-at-12.36.34-PM
+image_size:	900x1600
+1: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+2: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_2_
+image_size:	900x1600
+3: WhatsApp-Image-2020-04-06-at-12.36.35-PM
+image_size:	900x1600
+4: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_1_
+image_size:	900x1600
+5: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_2_
+image_size:	900x1600
+Loading image pixel data ...done in 0s
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+0: 23896c17-e91d-469f-9b72-54b71037d01d
+image_size:	900x1600
+1: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+Loading image pixel data ...done in 0s
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 678MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 4632x2608, 	1714, 5.72sec
+SIFT: 0001, 4632x2608, 	7070, 0.63sec
+SIFT: 0002, 900x1600, 	4785, 10.85sec
+SIFT: 0003, 900x1600, 	7911, 0.49sec
+SIFT: 0004, 900x1600, 	10091, 0.40sec
+SIFT: 0005, 900x1600, 	8926, 0.36sec
+SIFT: 0006, 900x1600, 	5785, 0.30sec
+SIFT: 0007, 900x1600, 	10018, 0.39sec
+SIFT: 0008, 900x1600, 	5215, 0.30sec
+SIFT: 0009, 900x1600, 	7911, 0.37sec
+
+###########-------timing------#########
+10 Feature Detection finished, 20 sec used
+#############################
+
+45 pairs to compute match
+NOTE: using 2 matching workers
+0001 and 0002: 22 matches, 0.18sec, #1
+0000 and 0003: 13 matches, 0.04sec, #1
+0001 and 0003: 34 matches, 0.25sec, #1
+0001 and 0003: [9/34], H[0], 0.04sec
+0000 and 0001: 376 matches, 0.56sec, #0
+0000 and 0001: [294/376], H[336], 0.01sec
+0002 and 0003: 815 matches, 0.15sec, #1
+0002 and 0003: [763/815], H[512], 0.00sec
+0000 and 0002: 11 matches, 0.18sec, #0
+0000 and 0004: 10 matches, 0.06sec, #1
+0001 and 0004: 34 matches, 0.18sec, #1
+0001 and 0004: [10/34], H[0], 0.04sec
+0003 and 0005: 65 matches, 0.85sec, #0
+0003 and 0005: [13/65], H[6], 0.14sec
+0002 and 0004: 320 matches, 0.17sec, #1
+0002 and 0004: [242/320], H[79], 0.01sec
+0004 and 0005: 74 matches, 0.94sec, #0
+0004 and 0005: [27/74], H[7], 0.07sec
+0003 and 0004: 2399 matches, 0.23sec, #1
+0000 and 0006: 13 matches, 0.12sec, #0
+0003 and 0004: [2297/2399], H[1908], 0.02sec
+0000 and 0005: 12 matches, 0.06sec, #1
+0001 and 0006: 21 matches, 0.67sec, #0
+0001 and 0005: 38 matches, 0.16sec, #1
+0001 and 0005: [9/38], H[0], 0.04sec
+0002 and 0006: 27 matches, 0.46sec, #0
+0002 and 0006: [9/27], H[0], 0.06sec
+0002 and 0005: 34 matches, 0.16sec, #1
+0002 and 0005: [10/34], H[5], 0.05sec
+0003 and 0006: 41 matches, 0.72sec, #0
+0002 and 0007: 28 matches, 0.19sec, #1
+0003 and 0006: [10/41], H[5], 0.06sec
+0002 and 0007: [10/28], H[0], 0.05sec
+0003 and 0007: 32 matches, 0.23sec, #1
+0004 and 0006: 37 matches, 0.68sec, #0
+0003 and 0007: [10/32], H[0], 0.07sec
+0004 and 0006: [10/37], H[0], 0.07sec
+0004 and 0007: 42 matches, 0.28sec, #1
+0004 and 0007: [10/42], H[0], 0.04sec
+0005 and 0007: 86 matches, 0.26sec, #1
+0005 and 0006: 260 matches, 0.68sec, #0
+0005 and 0006: [202/260], H[115], 0.00sec
+0005 and 0007: [31/86], H[13], 0.05sec
+0000 and 0007: 9 matches, 0.23sec, #0
+0006 and 0007: 381 matches, 0.19sec, #1
+0006 and 0007: [306/381], H[143], 0.01sec
+0000 and 0008: 10 matches, 0.06sec, #1
+0001 and 0007: 30 matches, 0.86sec, #0
+0001 and 0008: 23 matches, 0.13sec, #1
+0002 and 0008: 61 matches, 0.09sec, #1
+0001 and 0007: [10/30], H[0], 0.12sec
+0002 and 0008: [38/61], H[18], 0.01sec
+0003 and 0008: 46 matches, 0.12sec, #1
+0003 and 0008: [23/46], H[13], 0.01sec
+0005 and 0008: 28 matches, 0.71sec, #0
+0005 and 0008: [9/28], H[0], 0.06sec
+0004 and 0008: 41 matches, 0.24sec, #1
+0004 and 0008: [15/41], H[7], 0.05sec
+0006 and 0008: 23 matches, 0.44sec, #0
+0007 and 0008: 25 matches, 0.60sec, #0
+0007 and 0008: [9/25], H[5], 0.06sec
+0000 and 0009: 13 matches, 0.14sec, #0
+0001 and 0009: 34 matches, 0.69sec, #0
+0001 and 0009: [9/34], H[0], 0.07sec
+0002 and 0009: 815 matches, 0.55sec, #0
+0002 and 0009: [777/815], H[285], 0.01sec
+0006 and 0009: 41 matches, 0.65sec, #0
+0006 and 0009: [11/41], H[4], 0.07sec
+0003 and 0009: 1834 matches, 3.61sec, #1
+#Inliers:	 6, 22 
+0004 and 0009: 2399 matches, 0.33sec, #1
+0004 and 0009: [2322/2399], H[1813], 0.02sec
+0007 and 0009: 29 matches, 0.96sec, #0
+0005 and 0009: 73 matches, 0.21sec, #1
+0007 and 0009: [9/29], H[4], 0.10sec
+0005 and 0009: [12/73], H[5], 0.09sec
+0008 and 0009: 46 matches, 0.59sec, #0
+0008 and 0009: [23/46], H[13], 0.01sec
+
+###########-------timing------#########
+45 Image Match finished, 14 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 34.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+13 pairs have two-view models
+33 pairs have fundamental matrices
+Initialize with Wha..34-PM and Wha..M-_2_
+242 3D points initialized from two images
+PBA library version = 105
+PBA: 242 3D pts, 2 cams and 484 projs...
+PBA: 0.409 -> 0.304 (19 LMs in 2.71sec)
+Focal Length : [1920.000]->[1921.998]
+Focal Length : [1920.000]->[1918.616]
+
+#############################
+#3: [Wha..M-_1_] sees 349 (+2492) 3D points
+Estimated Focal Length [1965][1.23N]
+# 185 projs (0 pts and 0 merges)
+PBA: 242 3D pts, 3 cams and 669 projs...
+PBA: 0.615 -> 0.273 (33 LMs in 0.13sec)
+
+**************************************
+#3/3:  5387 projs and 2492 pts added.
+PBA: 2734 3D pts, 3 cams and 5871 projs...
+PBA: 0.391 -> 0.249 (4 LMs in 0.08sec)
+PBA: 2734 3D pts, 3 cams and 5871 projs...
+PBA: 0.249 -> 0.216 (1 LMs in 0.04sec)
+Focal Length : [1965.456]->[1986.076]
+Radial Distortion : [-0.093 -> -13]
+
+#############################
+#4: [Wha..M-_1_] sees 3050 (+2535) 3D points
+Estimated Focal Length [1992][1.24N]
+# 2757 projs (44 pts and 4 merges)
+PBA: 2773 3D pts, 4 cams and 8626 projs...
+PBA: 0.860 -> 0.244 (3 LMs in 0.10sec)
+#points w/ large errors:	1
+Focal Length : [1991.561]->[1987.820]
+Radial Distortion : [-0.049 -> -7]
+
+#############################
+#5: [238..7d01d] sees 42 (+33) 3D points
+Estimated Focal Length [4070][2.54N]
+# 86 projs (28 pts and 0 merges)
+PBA: 2799 3D pts, 5 cams and 8708 projs...
+PBA: 0.269 -> 0.179 (1 LMs in 0.01sec)
+#points w/ large errors:	7
+
+**************************************
+#5/5:  96 projs and 33 pts added.
+PBA: 2797 3D pts, 5 cams and 8696 projs...
+PBA: 0.160 -> 0.150 (1 LMs in 0.01sec)
+PBA: 2797 3D pts, 5 cams and 8696 projs...
+PBA: 0.150 -> 0.148 (1 LMs in 0.00sec)
+Focal Length : [4070.327]->[4073.648]
+Radial Distortion : [-0.099 -> -4]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with Wha..35-PM and Wha..M-_1_
+202 3D points initialized from two images
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.266 -> 0.227 (5 LMs in 0.08sec)
+Focal Length : [1920.000]->[1920.200]
+Focal Length : [1920.000]->[1919.795]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with IMG..02151 and IMG..02155
+284 3D points initialized from two images
+PBA: 284 3D pts, 2 cams and 568 projs...
+PBA: 0.163 -> 0.062 (1 LMs in 0.08sec)
+Focal Length : [643.333]->[643.304]
+Focal Length : [643.333]->[643.385]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+2 cams, 285 pts (3+: 0)
+568 projections (3+: 0)
+---------------------------------------------------
+3 model(s) reconstructed from 10 images;
+9 modeled; 0 reused; 0 EXIF; 
+1MB(1) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 5 sec used
+3.3(3.3) seconds on Bundle Adjustment (+)
+3.2(3.2) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 5.000 seconds used
+

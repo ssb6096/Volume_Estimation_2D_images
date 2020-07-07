@@ -1,0 +1,157 @@
+0: 0941da3a-ed9d-49d5-8828-fa801d540eed
+image_size:	1600x900
+#sift count:	9184
+
+1: 044dc132-ab1d-44fb-906b-4b803c7f3342
+image_size:	1600x900
+#sift count:	7986
+
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+1 pairs have two-view models
+1 pairs have fundamental matrices
+Initialize with 094..40eed and 044..f3342
+1098 3D points initialized from two images
+PBA library version = 105
+PBA: 1098 3D pts, 2 cams and 2196 projs...
+PBA: 0.290 -> 0.228 (3 LMs in 0.16sec)
+Focal Length : [1920.000]->[1919.345]
+Focal Length : [1920.000]->[1918.070]
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 1099 pts (3+: 0)
+2196 projections (3+: 0)
+---------------------------------------------------
+1 model(s) reconstructed from 2 images;
+2 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 2 sec used
+0.2(0.2) seconds on Bundle Adjustment (+)
+0.2(0.2) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 2.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to fullplate.nvm ... done
+
+#############################
+Undistorting 2 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: 094..40eed -> 00000000.jpg, 0.231 sec
+#00: 044..f3342 -> 00000001.jpg, 0.288 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs D:\fullplate.nvm.cmvs\00\ 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run dense reconstruction, begin...
+
+#############################
+Undistorting 2 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: 094..40eed -> 00000000.jpg, 0.334 sec
+#00: 044..f3342 -> 00000001.jpg, 0.288 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs D:\temp.nvm.cmvs\00\ 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+1 pairs have two-view models
+1 pairs have fundamental matrices
+Initialize with 094..40eed and 044..f3342
+1098 3D points initialized from two images
+PBA: 1098 3D pts, 2 cams and 2196 projs...
+PBA: 0.290 -> 0.228 (3 LMs in 1.17sec)
+Focal Length : [1920.000]->[1919.345]
+Focal Length : [1920.000]->[1918.070]
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 1099 pts (3+: 0)
+2196 projections (3+: 0)
+---------------------------------------------------
+1 model(s) reconstructed from 2 images;
+2 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 1 sec used
+1.2(1.2) seconds on Bundle Adjustment (+)
+1.2(1.2) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 1.000 seconds used
+
+
+Compute Bundle Adjustment, begin...
+PBA: 1098 3D pts, 2 cams and 2196 projs...
+PBA: 0.228 -> 0.205 (4 LMs in 0.12sec)
+----------------------------------------------------------------
+Compute Bundle Adjustment, finished
+Totally 1.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to temp1.nvm ... done
+
+#############################
+Undistorting 2 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: 094..40eed -> 00000000.jpg, 0.276 sec
+#00: 044..f3342 -> 00000001.jpg, 0.570 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs D:\temp1.nvm.cmvs\00\ 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+
+
+Run dense reconstruction, begin...
+
+#############################
+Undistorting 2 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: 094..40eed -> 00000000.jpg, 0.256 sec
+#00: 044..f3342 -> 00000001.jpg, 0.252 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs D:\temp2.nvm.cmvs\00\ 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors

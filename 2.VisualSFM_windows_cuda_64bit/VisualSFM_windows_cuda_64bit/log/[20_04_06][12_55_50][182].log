@@ -1,0 +1,85 @@
+0: WhatsApp Image 2020-04-06 at 12.52.48 PM (1)
+image_size:	900x1600
+1: WhatsApp Image 2020-04-06 at 12.52.48 PM
+image_size:	900x1600
+2: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+3: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+4: WhatsApp Image 2020-04-06 at 12.52.49 PM
+image_size:	900x1600
+5: WhatsApp-Image-2020-04-06-at-12.36.34-PM
+image_size:	900x1600
+#sift count:	4785
+
+6: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+#sift count:	7911
+
+Loading image pixel data ...done in 0s
+
+Compute putative matches, begin...
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 0.000 seconds used
+
+
+Compute putative matches, begin...
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Use RANSAC to find inliers, begin...
+NOTE: loose thresholds used for manual update
+----------------------------------------------------------------
+Use RANSAC to find inliers, finished
+Totally 0.000 seconds used
+
+6: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+#sift count:	7911
+
+7: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_2_
+image_size:	900x1600
+#sift count:	10091
+
+8: WhatsApp-Image-2020-04-06-at-12.36.35-PM
+image_size:	900x1600
+#sift count:	8926
+
+9: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_1_
+image_size:	900x1600
+#sift count:	5785
+
+10: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_2_
+image_size:	900x1600
+#sift count:	10018
+
+Loading image pixel data ...done in 0s
+11: WhatsApp-Image-2020-04-06-at-12.52.49-PM
+image_size:	900x1600
+Loading image pixel data ...done in 0s
+Loading image pixel data ...done in 0s
+
+Compute putative matches, begin...
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 0.000 seconds used
+

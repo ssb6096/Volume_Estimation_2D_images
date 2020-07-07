@@ -1,0 +1,11 @@
+For using with Visual SFM
+1.Try to click pictures from all angles
+2.If individual photos are being taken 50 photos is good
+3.Avoid other objects being repetedly included in the frame
+4.Take the picture from not too far away
+For using with frame transform
+1.Calibrate the camera (Its a one time step)
+2.Take images such that the marker is placed next to the food item and visible
+For birds eye view
+1. Calibrate the camera
+2.The marker and theplate of food should be in the same plane. 

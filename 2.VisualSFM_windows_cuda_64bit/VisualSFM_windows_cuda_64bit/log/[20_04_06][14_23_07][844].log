@@ -1,0 +1,43 @@
+0: WhatsApp Image 2020-04-06 at 12.52.48 PM (1)
+image_size:	900x1600
+#sift count:	4550
+
+1: WhatsApp Image 2020-04-06 at 12.52.48 PM
+image_size:	900x1600
+#sift count:	4043
+
+2: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+#sift count:	4923
+
+3: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+#sift count:	3199
+
+Loading image pixel data ...done in 0s
+SIFT #:	3199
+
+Compute putative matches, begin...
+0002 and 0003: 39 matches, 0.85sec, #0
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 1.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+2 pairs have fundamental matrices
+Failed to find two images for initialization
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+2 pairs have fundamental matrices
+Failed to find two images for initialization
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+

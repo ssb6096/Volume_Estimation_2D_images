@@ -1,0 +1,241 @@
+0: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_2_
+image_size:	900x1600
+#sift count:	10018
+
+1: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_1_
+image_size:	900x1600
+#sift count:	5785
+
+2: WhatsApp-Image-2020-04-06-at-12.36.35-PM
+image_size:	900x1600
+#sift count:	8926
+
+3: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_2_
+image_size:	900x1600
+#sift count:	10091
+
+4: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+#sift count:	7911
+
+5: WhatsApp-Image-2020-04-06-at-12.36.34-PM
+image_size:	900x1600
+#sift count:	4785
+
+6: WhatsApp Image 2020-04-06 at 12.52.49 PM
+image_size:	900x1600
+#sift count:	6452
+
+7: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+#sift count:	3199
+
+8: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+#sift count:	4923
+
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+6 pairs to compute match
+NOTE: using 2 matching workers
+0001 and 0004: 41 matches, 0.41sec, #1
+0001 and 0004: [10/41], H[0], 0.03sec
+0000 and 0006: 25 matches, 1.03sec, #0
+0002 and 0004: 65 matches, 0.13sec, #1
+0000 and 0006: [10/25], H[0], 0.04sec
+0002 and 0004: [13/65], H[7], 0.05sec
+0003 and 0004: 2288 matches, 0.16sec, #1
+0000 and 0007: 25 matches, 0.30sec, #0
+0003 and 0004: [2219/2288], H[1828], 0.03sec
+0000 and 0007: [10/25], H[0], 0.06sec
+0000 and 0008: 21 matches, 0.13sec, #1
+
+###########-------timing------#########
+6 Image Match finished, 2 sec used
+#############################
+
+NOTE: using 12 matching workers
+0000 and 0004: [9/29], H[0], 0.03sec
+
+###########-------timing------#########
+6 Putative Match finished, 2 sec used
+1 Geometric Verification finished, 0 sec used
+#############################
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 2.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+7 pairs have two-view models
+29 pairs have fundamental matrices
+Initialize with Wha..M-_2_ and Wha..34-PM
+242 3D points initialized from two images
+PBA library version = 105
+PBA: 242 3D pts, 2 cams and 484 projs...
+PBA: 0.383 -> 0.248 (31 LMs in 0.52sec)
+Focal Length : [1920.000]->[1921.611]
+Focal Length : [1920.000]->[1924.677]
+
+#############################
+#3: [Wha..M-_1_] sees 347 (+2411) 3D points
+Estimated Focal Length [1957][1.22N]
+# 183 projs (0 pts and 0 merges)
+PBA: 242 3D pts, 3 cams and 667 projs...
+PBA: 0.769 -> 0.384 (61 LMs in 0.32sec)
+
+**************************************
+#3/3:  5202 projs and 2411 pts added.
+PBA: 2653 3D pts, 3 cams and 5686 projs...
+PBA: 0.461 -> 0.215 (2 LMs in 0.01sec)
+PBA: 2653 3D pts, 3 cams and 5686 projs...
+PBA: 0.215 -> 0.212 (1 LMs in 0.00sec)
+Focal Length : [1956.507]->[1960.424]
+Radial Distortion : [-0.049 -> -7]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with Wha..M-_1_ and Wha..35-PM
+202 3D points initialized from two images
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.299 -> 0.164 (5 LMs in 0.09sec)
+Focal Length : [1920.000]->[1915.084]
+Focal Length : [1920.000]->[1925.155]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 203 pts (3+: 0)
+404 projections (3+: 0)
+---------------------------------------------------
+2 model(s) reconstructed from 9 images;
+5 modeled; 0 reused; 0 EXIF; 
+1MB(1) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 2 sec used
+1.0(1.0) seconds on Bundle Adjustment (+)
+0.9(0.9) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 2.000 seconds used
+
+
+Compute Bundle Adjustment, begin...
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.164 -> 0.145 (1 LMs in 0.13sec)
+----------------------------------------------------------------
+Compute Bundle Adjustment, finished
+Totally 0.000 seconds used
+
+
+Compute Bundle Adjustment, begin...
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.145 -> 0.141 (1 LMs in 0.03sec)
+----------------------------------------------------------------
+Compute Bundle Adjustment, finished
+Totally 0.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to Temp.nvm ... done
+
+#############################
+Undistorting 2 images in model #1
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: Wha..M-_1_ -> 00000000.jpg, 0.359 sec
+#00: Wha..35-PM -> 00000001.jpg, 0.324 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs "D:\Trial 1 3D construction\Temp.nvm.cmvs\01\\" 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+7 pairs have two-view models
+29 pairs have fundamental matrices
+Initialize with Wha..M-_2_ and Wha..34-PM
+242 3D points initialized from two images
+PBA: 242 3D pts, 2 cams and 484 projs...
+PBA: 0.383 -> 0.248 (31 LMs in 0.53sec)
+Focal Length : [1920.000]->[1921.611]
+Focal Length : [1920.000]->[1924.677]
+
+#############################
+#3: [Wha..M-_1_] sees 347 (+2411) 3D points
+Estimated Focal Length [1982][1.24N]
+# 183 projs (0 pts and 0 merges)
+PBA: 242 3D pts, 3 cams and 667 projs...
+PBA: 0.774 -> 0.283 (38 LMs in 0.52sec)
+
+**************************************
+#3/3:  5202 projs and 2411 pts added.
+PBA: 2653 3D pts, 3 cams and 5686 projs...
+PBA: 0.364 -> 0.206 (1 LMs in 0.04sec)
+PBA: 2653 3D pts, 3 cams and 5686 projs...
+PBA: 0.206 -> 0.185 (1 LMs in 0.04sec)
+Focal Length : [1982.483]->[1973.049]
+Radial Distortion : [-0.158 -> -21]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with Wha..M-_1_ and Wha..35-PM
+202 3D points initialized from two images
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.299 -> 0.164 (5 LMs in 0.12sec)
+Focal Length : [1920.000]->[1915.084]
+Focal Length : [1920.000]->[1925.155]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+2 cams, 203 pts (3+: 0)
+404 projections (3+: 0)
+---------------------------------------------------
+2 model(s) reconstructed from 9 images;
+5 modeled; 0 reused; 0 EXIF; 
+1MB(1) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 2 sec used
+1.3(1.3) seconds on Bundle Adjustment (+)
+1.3(1.3) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 2.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to Temp1.nvm ... done
+
+#############################
+Undistorting 2 images in model #1
+param_undistortion_thread_num = 0
+NOTE: using 12 threads...
+#00: Wha..M-_1_ -> 00000000.jpg, 0.404 sec
+#00: Wha..35-PM -> 00000001.jpg, 0.313 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs "D:\Trial 1 3D construction\Temp1.nvm.cmvs\01\\" 50 12
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+

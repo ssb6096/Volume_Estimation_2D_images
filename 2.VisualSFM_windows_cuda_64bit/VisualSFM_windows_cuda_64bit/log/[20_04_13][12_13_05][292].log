@@ -1,0 +1,203 @@
+0: WhatsApp Image 2020-04-06 at 12.52.48 PM (1)
+image_size:	900x1600
+#sift count:	4550
+
+1: WhatsApp Image 2020-04-06 at 12.52.48 PM
+image_size:	900x1600
+#sift count:	4043
+
+2: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+#sift count:	4923
+
+3: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+#sift count:	3199
+
+4: WhatsApp Image 2020-04-06 at 12.52.49 PM
+image_size:	900x1600
+#sift count:	6452
+
+5: WhatsApp-Image-2020-04-06-at-12.36.34-PM
+image_size:	900x1600
+#sift count:	4785
+
+6: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_1_
+image_size:	900x1600
+#sift count:	7911
+
+7: WhatsApp-Image-2020-04-06-at-12.36.34-PM-_2_
+image_size:	900x1600
+#sift count:	10091
+
+8: WhatsApp-Image-2020-04-06-at-12.36.35-PM
+image_size:	900x1600
+#sift count:	8926
+
+9: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_1_
+image_size:	900x1600
+#sift count:	5785
+
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+30 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0002: 32 matches, 2.17sec, #1
+0000 and 0002: [11/32], H[0], 0.04sec
+0001 and 0003: 26 matches, 0.05sec, #1
+0001 and 0003: [10/26], H[5], 0.05sec
+0001 and 0004: 34 matches, 0.15sec, #1
+0001 and 0004: [10/34], H[0], 0.04sec
+0002 and 0004: 24 matches, 0.14sec, #1
+0000 and 0005: 29 matches, 0.11sec, #1
+0000 and 0005: [10/29], H[5], 0.05sec
+0001 and 0005: 25 matches, 0.09sec, #1
+0001 and 0005: [9/25], H[0], 0.04sec
+0000 and 0001: 1291 matches, 3.22sec, #0
+0000 and 0001: [1229/1291], H[990], 0.01sec
+0002 and 0005: 32 matches, 0.13sec, #1
+0002 and 0005: [11/32], H[0], 0.04sec
+0003 and 0005: 30 matches, 0.10sec, #1
+0003 and 0005: [9/30], H[0], 0.04sec
+0003 and 0006: 19 matches, 0.41sec, #0
+0000 and 0006: 30 matches, 0.17sec, #1
+0000 and 0006: [10/30], H[5], 0.05sec
+0004 and 0006: 33 matches, 0.72sec, #0
+0004 and 0006: [10/33], H[0], 0.07sec
+0001 and 0006: 26 matches, 0.29sec, #1
+0001 and 0006: [10/26], H[5], 0.06sec
+0005 and 0006: 815 matches, 0.57sec, #0
+0005 and 0006: [736/815], H[459], 0.00sec
+0002 and 0006: 26 matches, 0.19sec, #1
+0002 and 0006: [11/26], H[0], 0.05sec
+0001 and 0008: 38 matches, 0.19sec, #1
+0001 and 0008: [10/38], H[0], 0.04sec
+0002 and 0008: 30 matches, 0.14sec, #1
+0000 and 0007: 30 matches, 0.62sec, #0
+0002 and 0008: [9/30], H[4], 0.07sec
+0000 and 0007: [9/30], H[0], 0.05sec
+0003 and 0008: 33 matches, 0.16sec, #1
+0003 and 0008: [11/33], H[5], 0.09sec
+0004 and 0008: 38 matches, 0.13sec, #1
+0004 and 0008: [11/38], H[5], 0.11sec
+0001 and 0007: 27 matches, 0.51sec, #0
+0001 and 0007: [9/27], H[0], 0.09sec
+0000 and 0009: 19 matches, 0.16sec, #1
+0001 and 0009: 27 matches, 0.06sec, #1
+0001 and 0009: [9/27], H[0], 0.04sec
+0002 and 0007: 19 matches, 0.57sec, #0
+0002 and 0009: 15 matches, 0.22sec, #1
+0003 and 0007: 23 matches, 0.28sec, #0
+0003 and 0009: 19 matches, 0.25sec, #1
+0004 and 0007: 43 matches, 0.71sec, #0
+0004 and 0007: [11/43], H[5], 0.07sec
+0004 and 0009: 31 matches, 0.18sec, #1
+0004 and 0009: [10/31], H[5], 0.05sec
+0000 and 0008: 37 matches, 0.44sec, #0
+0000 and 0008: [9/37], H[0], 0.05sec
+
+###########-------timing------#########
+30 Image Match finished, 8 sec used
+#############################
+
+NOTE: using 12 matching workers
+0004 and 0005: [9/27], H[0], 0.06sec
+0000 and 0004: [10/38], H[0], 0.06sec
+0002 and 0003: [11/39], H[0], 0.05sec
+0003 and 0004: [11/35], H[0], 0.05sec
+
+###########-------timing------#########
+30 Putative Match finished, 8 sec used
+4 Geometric Verification finished, 1 sec used
+#############################
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 9.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+6 pairs have two-view models
+38 pairs have fundamental matrices
+Initialize with Wha..34-PM and Wha..M-_2_
+242 3D points initialized from two images
+PBA library version = 105
+PBA: 242 3D pts, 2 cams and 484 projs...
+PBA: 0.409 -> 0.247 (84 LMs in 2.76sec)
+Focal Length : [1920.000]->[1924.234]
+Focal Length : [1920.000]->[1918.260]
+
+#############################
+#3: [Wha..M-_1_] sees 349 (+2486) 3D points
+Estimated Focal Length [1991][1.24N]
+# 185 projs (0 pts and 0 merges)
+PBA: 242 3D pts, 3 cams and 669 projs...
+PBA: 0.718 -> 0.349 (53 LMs in 0.38sec)
+
+**************************************
+#3/3:  5354 projs and 2486 pts added.
+PBA: 2728 3D pts, 3 cams and 5838 projs...
+PBA: 0.468 -> 0.180 (3 LMs in 0.12sec)
+PBA: 2728 3D pts, 3 cams and 5838 projs...
+PBA: 0.180 -> 0.166 (1 LMs in 0.01sec)
+Focal Length : [1991.012]->[1969.924]
+Radial Distortion : [-0.036 -> -5]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with Wha..35-PM and Wha..M-_1_
+202 3D points initialized from two images
+PBA: 202 3D pts, 2 cams and 404 projs...
+PBA: 0.266 -> 0.227 (5 LMs in 0.09sec)
+Focal Length : [1920.000]->[1920.200]
+Focal Length : [1920.000]->[1919.795]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+2 cams, 203 pts (3+: 0)
+404 projections (3+: 0)
+---------------------------------------------------
+2 model(s) reconstructed from 10 images;
+5 modeled; 0 reused; 0 EXIF; 
+1MB(1) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 6 sec used
+3.4(3.4) seconds on Bundle Adjustment (+)
+3.4(3.4) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 6.000 seconds used
+
+0: WhatsApp-Image-2020-04-06-at-12.52.49-PM-_2_
+image_size:	900x1600
+1: WhatsApp-Image-2020-04-06-at-12.52.49-PM
+image_size:	900x1600
+2: WhatsApp-Image-2020-04-06-at-12.36.35-PM-_2_
+image_size:	900x1600
+#sift count:	10018
+
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 527MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0010, 900x1600, 	3004, 6.43sec
+SIFT: 0011, 900x1600, 	6301, 0.60sec
+
+###########-------timing------#########
+2 Feature Detection finished, 8 sec used
+#############################
+
+28 pairs to compute match
+NOTE: using 2 matching workers

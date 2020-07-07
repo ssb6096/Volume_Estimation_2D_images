@@ -1,0 +1,78 @@
+0: WhatsApp Image 2020-04-06 at 12.52.48 PM (1)
+image_size:	900x1600
+1: WhatsApp Image 2020-04-06 at 12.52.48 PM
+image_size:	900x1600
+2: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+3: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+4: WhatsApp Image 2020-04-06 at 12.52.49 PM
+image_size:	900x1600
+5: WhatsApp-Image-2020-04-06-at-12.36.34-PM
+image_size:	900x1600
+#sift count:	4785
+
+Loading image pixel data ...done in 0s
+
+Compute putative matches, begin...
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 0.000 seconds used
+
+
+Compute Specified Pairwise Matching, begin...
+********* WARNING ***********
+More than 527MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 900x1600, 	4550, 4.28sec
+SIFT: 0001, 900x1600, 	4043, 0.37sec
+SIFT: 0002, 900x1600, 	4923, 0.35sec
+SIFT: 0003, 900x1600, 	3199, 0.35sec
+SIFT: 0004, 900x1600, 	6452, 0.36sec
+
+###########-------timing------#########
+5 Feature Detection finished, 6 sec used
+#############################
+
+Loading specified match list
+0 pairs are skipped
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Specified Pairwise Matching, finished
+Totally 6.000 seconds used
+
+SIFT #:	4785
+SIFT #:	4785
+
+Compute putative matches, begin...
+0004 and 0005: 27 matches, 1.10sec, #0
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 2.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+
+Compute remaining photos, begin...
+----------------------------------------------------------------
+Compute remaining photos, finished
+Totally 0.000 seconds used
+
+Loading image pixel data ...done in 0s

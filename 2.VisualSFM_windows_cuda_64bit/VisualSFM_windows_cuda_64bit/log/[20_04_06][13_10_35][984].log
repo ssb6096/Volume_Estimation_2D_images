@@ -1,0 +1,33 @@
+0: WhatsApp Image 2020-04-06 at 12.52.48 PM (1)
+image_size:	900x1600
+#sift count:	4550
+
+1: WhatsApp Image 2020-04-06 at 12.52.48 PM
+image_size:	900x1600
+#sift count:	4043
+
+2: WhatsApp Image 2020-04-06 at 12.52.49 PM (1)
+image_size:	900x1600
+#sift count:	4923
+
+3: WhatsApp Image 2020-04-06 at 12.52.49 PM (2)
+image_size:	900x1600
+#sift count:	3199
+
+4: WhatsApp Image 2020-04-06 at 12.52.49 PM
+image_size:	900x1600
+#sift count:	6452
+
+Loading image pixel data ...done in 0s
+SIFT #:	6452
+
+Compute putative matches, begin...
+0003 and 0004: 35 matches, 0.89sec, #0
+----------------------------------------------------------------
+Compute putative matches, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+8 pairs to compute match
+NOTE: using 2 matching workers
