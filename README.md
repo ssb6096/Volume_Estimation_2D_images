@@ -34,10 +34,20 @@ Several approaches were explored and compared:
 | `tiny_nerf.ipynb` | Google Colab NeRF notebook, adapted to run on custom food images (load images into Drive first) |
 | `Instructions on video recording_snapping images.txt` | Guidelines for capturing photos and video for each method |
 | `Sample video.mp4` | Example of how to record a video for Visual SFM |
-| `2.VisualSFM_windows_cuda_64bit/` | Visual SFM compiled for Windows with dependencies (third-party) |
-| `3.nerf-master/` | Neural Radiance Fields reference implementation (third-party) |
-| `4.LLFF-master/` | LLFF, used to convert images to camera poses for NeRF (third-party) |
 | `docs/` | Project poster |
+
+## Third-party tools
+
+The pipeline also relies on these tools. They aren't included in this repo, so download them from the original sources:
+
+| Tool | Used for | Original source |
+|---|---|---|
+| **VisualSFM** (Changchang Wu) | Structure from Motion: SIFT matching, bundle adjustment and dense reconstruction (with CMVS/PMVS) to get a 3D point cloud | [ccwu.me/vsfm](http://ccwu.me/vsfm/) (Windows, CUDA 64-bit build) |
+| **NeRF** (Mildenhall et al., 2020) | Neural Radiance Fields for 3D reconstruction; `tiny_nerf.ipynb` here is adapted from its Colab notebook | [github.com/bmild/nerf](https://github.com/bmild/nerf) |
+| **LLFF** (Mildenhall et al., 2019) | `imgs2poses.py` to recover camera poses from images before running NeRF | [github.com/Fyusion/LLFF](https://github.com/Fyusion/LLFF) |
+| **MeshLab** | Converting the SfM point cloud to a convex hull and computing its volume | [meshlab.net](https://www.meshlab.net/) |
+
+To reproduce the SfM and NeRF steps, download VisualSFM and clone NeRF and LLFF next to this repo, then follow the capture guidelines in `Instructions on video recording_snapping images.txt`.
 
 ## Context
 
