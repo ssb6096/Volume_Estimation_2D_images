@@ -52,3 +52,11 @@ To reproduce the SfM and NeRF steps, download VisualSFM and clone NeRF and LLFF 
 ## Context
 
 Project from my M.S. in Electrical Engineering at Rochester Institute of Technology, in collaboration with the University of Rochester. Also on [Portfolium](https://portfolium.com/entry/volume-estimation-of-food-from-2-d-images).
+
+## License
+
+This project is released under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may use, modify and share it for **noncommercial purposes**, including academic research, teaching and personal study. Commercial use needs separate permission from the author.
+
+Required Notice: Copyright (c) 2020 Sriparvathi Shaji Bhattathiri
+
+Third-party code in this repository keeps its original license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
